@@ -24,7 +24,6 @@ class ValidForm {
 
     if(validFields && passwordValid) {
       alert('form enviado')
-      this.form.submit()
     }
   }
 

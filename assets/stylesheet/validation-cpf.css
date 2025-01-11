@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 70%;
-  margin: 50px auto;
+  margin: 40px auto;
   background: rgb(161, 162, 171);
   padding: 20px;
   border-radius: 10px;
@@ -61,37 +61,39 @@ body {
   font-family: "Afacad Flux", serif;
 }
 
-form input, form label, form button {
+.form input, .form label, .form button {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-family: "Afacad Flux", serif;
 }
 
-form input {
-  font-size: 24px;
-  height: 50px;
+.form input {
+  font-size: 20px;
+  height: 40px;
   padding: 0 20px;
 }
 
-form input:focus {
+.form input:focus {
   outline: 1px solid rgb(59, 58, 74);
 }
 
-form button {
+.form button {
   border: none;
   background: rgb(59, 58, 74);
   color: #fff;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   height: 50px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-form button:hover {
+button:hover {
   background: rgb(89, 81, 104);
 }
 .error-text {
-  font-size: 12px;
+  font-size: 15px;
   color: red;
+  font-family: "Afacad Flux", serif;
 }
