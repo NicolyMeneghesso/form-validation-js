@@ -21,6 +21,8 @@ O projeto consiste em um formulário que valida os campos preenchidos pelo usuá
 * CSS: Estilização do formulário e mensagens de erro.
 * JavaScript: Lógica de validação dos campos e CPF, além do controle da exibição das mensagens de erro.
 
+## Pré-visualização
+
 ![Capa](./assets/img/projeto.png)
 ![Erro 1](./assets/img/com-erro.png)
 ![Erro 2](./assets/img/erro-2.png)
